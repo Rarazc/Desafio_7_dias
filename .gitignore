@@ -1,6 +1,7 @@
-/node_modules
-/.idea
+cypress/screenshots/
+cypress/videos/
+allure-results/
+allure-report/
+node_modules/
+.idea/
 package-lock.json
-/allure-report
-/allure-results
-/cypress/screenshots/

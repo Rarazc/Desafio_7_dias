@@ -43,7 +43,7 @@ describe('Funcionalidade do Registro de Funcionário', () => {
         (item) => String(item.id) === String(userId)
       );
 
-      expect(found,'Funcionário com id ${userId} encontrado no GET /employees')
+      expect(found,`Funcionário com id ${userId} encontrado no GET /employees`)
         .to.eq(true);
     });
   })
